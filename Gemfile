@@ -25,6 +25,10 @@ gem 'jbuilder', '~> 2.7'
 # Bootstrap
 gem 'bootstrap', '~> 5.1.3'
 
+gem 'autoprefixer-rails'
+gem 'font-awesome-sass', '~> 5.6.1'
+gem 'simple_form', github: 'heartcombo/simple_form'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
